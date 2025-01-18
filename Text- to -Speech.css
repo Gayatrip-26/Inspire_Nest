@@ -1,0 +1,79 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+     color: #333;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background-color: #0077b6;
+     color: white;
+     padding: 20px;
+ }
+
+ main {
+     padding: 20px;
+ }
+
+ #communication-board {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+     margin: 20px 0;
+ }
+
+ .word-button {
+     background-color: #90e0ef;
+     border: none;
+     border-radius: 5px;
+     padding: 15px 25px;
+     font-size: 18px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .word-button:hover {
+     background-color: #00b4d8;
+ }
+
+ #sentence-box {
+     margin: 20px auto;
+     max-width: 500px;
+ }
+
+ #sentence {
+     font-size: 20px;
+     border: 2px solid #333;
+     border-radius: 5px;
+     padding: 10px;
+     min-height: 50px;
+ }
+
+ #start-recording {
+     font-size: 20px;
+     border: 2px solid #333;
+     border-radius: 5px;
+     padding: 10px;
+     min-height: 30px;
+     background-color: #56addc;
+ }
+
+ #speak-button,
+ #clear-button {
+     background-color: #0077b6;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     margin: 10px 5px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ #speak-button:hover,
+ #clear-button:hover {
+     background-color: #005f73;
+ }

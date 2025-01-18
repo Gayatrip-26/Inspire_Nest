@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Recording</title>
+    <link rel="stylesheet" href="Stories Recording.css">
+</head>
+
+<body>
+    <header>
+        <h1>Story Recording for Children</h1>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Left Section: Story -->
+            <div class="story-container">
+                <div class="story-section">
+                    <h2 id="story-title">Elephant and Mouse Story</h2>
+                    <p id="story-text">
+                        Once upon a time, there was an elephant and a mouse who were best friends...
+                    </p>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/kltGRRzKOVw?si=70_NRFm3ZjnD05wU&amp;controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Right Section: Recording -->
+            <div class="recording-section">
+                <h2>Record Your Story</h2>
+                <video id="camera-view" autoplay muted></video>
+                <video id="recorded-video" controls></video>
+                <div id="controls">
+                    <button id="start-recording">Start Recording</button>
+                    <button id="stop-recording" disabled>Stop Recording</button>
+                    <button id="play-recording" disabled>Play Recording</button>
+                    <button id="next-challenge" disabled>Next Challenge</button>
+                    <button id="upload-story" disabled>Upload Story</button>
+                </div>
+                <div id="feedback-container"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Story Recorder</p>
+    </footer>
+
+    <script src="Stories Recording.js"></script>
+</body>
+
+</html>
